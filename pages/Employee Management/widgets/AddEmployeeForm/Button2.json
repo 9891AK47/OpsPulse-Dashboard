@@ -1,0 +1,55 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "epumha9uha",
+  "leftColumn": 48,
+  "minWidth": 120,
+  "mobileBottomRow": 37,
+  "mobileLeftColumn": 46,
+  "mobileRightColumn": 62,
+  "mobileTopRow": 33,
+  "needsErrorInfo": false,
+  "onClick": "{{ add_employee.run(() => {\n    get_all_employees.run();\n    showAlert(\"Employee added successfully!\", \"success\");\n\n    IDInput.setValue(\"\");\n    NameInput.setValue(\"\");\n    EmailInput.setValue(\"\");\n    RoleInput.setValue(\"\");\n    StatusInput.setSelectedOption(\"\");\n    JoiningDateInput.setValue(\"\");\n\n  }, (err) => {\n    showAlert(\"Failed to add employee: \" + err.message, \"error\");\n  })\n}}\n",
+  "originalBottomRow": 29,
+  "originalTopRow": 25,
+  "parentId": "3cqghfkenc",
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": true,
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "text": "Submit",
+  "topRow": 29,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "05gvoh9j61",
+  "widgetName": "Button2"
+}

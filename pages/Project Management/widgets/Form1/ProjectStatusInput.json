@@ -1,0 +1,61 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 15,
+  "boxShadow": "none",
+  "defaultOptionValue": "Active",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "sourceData"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "isDisabled": false,
+  "isFilterable": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "5lalpbdmd3",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Project Status",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 5,
+  "leftColumn": 35,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mobileBottomRow": 14,
+  "mobileLeftColumn": 35,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 7,
+  "needsErrorInfo": false,
+  "optionLabel": "name",
+  "optionValue": "code",
+  "originalBottomRow": 15,
+  "originalTopRow": 8,
+  "parentColumnSpace": 19.84375,
+  "parentId": "af159u4c6w",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 55,
+  "serverSideFiltering": false,
+  "sourceData": "[\n  {\n    \"name\": \"Active\",\n    \"code\": \"Active\"\n  },\n  {\n    \"name\": \"Completed\",\n    \"code\": \"Completed\"\n  },\n  {\n    \"name\": \"On Hold\",\n    \"code\": \"On Hold\"\n  }\n]",
+  "topRow": 8,
+  "type": "SELECT_WIDGET",
+  "version": 1,
+  "widgetId": "5xfyyx9mvf",
+  "widgetName": "ProjectStatusInput"
+}

@@ -1,0 +1,48 @@
+{
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {},
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#FFDEDE",
+  "evaluationVersion": 2,
+  "icon": "bag",
+  "pages": [
+    {
+      "id": "Employee Management",
+      "isDefault": true
+    },
+    {
+      "id": "Project Management",
+      "isDefault": false
+    },
+    {
+      "id": "Admin Dashboard",
+      "isDefault": false
+    },
+    {
+      "id": "Employee Project Assignment",
+      "isDefault": false
+    }
+  ],
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {},
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
+}
